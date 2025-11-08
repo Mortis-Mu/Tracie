@@ -1,0 +1,45 @@
+{
+  "name": "Google 2011 Profile (Precise)",
+  "P_B": 0.38,
+  "app_pool": ["pi", 
+    "wordcount", 
+    "grep", 
+    "terasort",
+    "nginx",
+    "redis"
+  ],
+  "parameters": {
+    "J_AT_B": {
+      "type": "rice",
+      "params": [1.98, 1.25e12, 1.25e12]
+    },
+    "J_AT_UF": {
+      "type": "chi2",
+      "params": [0.31, -1.5e-10, 1.26e15]
+    },
+    "J_D_B": {
+      "type": "t",
+      "params": [0.18, -1.91e5, 6.8e6]
+    },
+    "J_D_UF": {
+      "type": "beta",
+      "params": [0.3, 4000.0, -2.3e-27, 3700.0]
+    },
+    "T_AT_B": {
+      "type": "norm",
+      "params": [0.5, 0.1]
+    },
+    "T_AT_UF": {
+      "type": "t",
+      "params": [0.48, 0.006, 0.006]
+    },
+    "T_D_B": {
+      "type": "norm",
+      "params": [10.0, 2.0]
+    },
+    "T_D_UF": {
+      "type": "norm",
+      "params": [5.0, 1.0]
+    }
+  }
+}
